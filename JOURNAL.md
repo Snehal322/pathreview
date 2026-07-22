@@ -15,3 +15,18 @@ The issue is requesting that the API documentation include a working `curl` exam
 **Setup confirmation:** [Y] App runs locally at localhost:5173
 
 **Cohort ledger:** [Y] Issue added to cohort ledger
+
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** [link to commit documenting the reproduced issue]
+
+**Reproduction summary:**
+I reproduced Issue #117 by reviewing `docs/api.md` and confirming that the API documentation lists the available endpoints but does not include any executable `curl` examples. This matches the issue description, as developers currently have no ready-to-run command-line examples for testing the API.
+
+**PLAN.md link:** https://github.com/Snehal322/pathreview/blob/fix/117-curl-eg-missing--API-testing/PLAN.md
+
+**Walkthrough video (recommended):** Not recorded
+
+**Blockers or open questions:**
+None
