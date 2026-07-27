@@ -22,7 +22,7 @@ The issue is requesting that the API documentation include a working `curl` exam
 **Reproduction commit link:** https://github.com/Snehal322/pathreview/commit/974c7ae
 
 **Reproduction summary:**
-I reproduced Issue #117 by reviewing `docs/api.md` and confirming that the API documentation lists the available endpoints but does not include any executable `curl` examples. This matches the issue description, as developers currently have no ready-to-run command-line examples for testing the API.
+I reproduced Issue by reviewing `docs/api.md` and confirming that the API documentation lists the available endpoints but does not include any executable `curl` examples. This matches the issue description, as developers currently have no ready-to-run command-line examples for testing the API.
 
 **PLAN.md link:**
 https://github.com/Snehal322/pathreview/blob/fix/117-curl-eg-missing--API-testing/PLAN.md
