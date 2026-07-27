@@ -1,6 +1,6 @@
 ## Week 7 — Issue selection
 
-**Issue link:**  https://github.com/ascherj/pathreview/issues/117
+**Issue link:** https://github.com/ascherj/pathreview/issues/117 
 
 **Issue title:** API docs don't include example curl commands
 
@@ -22,7 +22,7 @@ The issue is requesting that the API documentation include a working `curl` exam
 **Reproduction commit link:** https://github.com/Snehal322/pathreview/commit/974c7ae
 
 **Reproduction summary:**
-I reproduced Issue by reviewing `docs/api.md` and confirming that the API documentation lists the available endpoints but does not include any executable `curl` examples. This matches the issue description, as developers currently have no ready-to-run command-line examples for testing the API.
+I reproduced the documentation issue by reviewing docs/api.md and confirming that it lists API endpoints but provides no executable curl examples. This matches Issue #117 because developers currently cannot copy and run example requests directly from the documentation.
 
 **PLAN.md link:**
 https://github.com/Snehal322/pathreview/blob/fix/117-curl-eg-missing--API-testing/PLAN.md

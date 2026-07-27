@@ -26,11 +26,11 @@ What are the steps to fix this issue?
 What does your fix take as input? What should it produce or change?
 Input :
     - Existing API documentation
-    - Endpoint definitions from the backend implementation
+    - Endpoint definitions from the backend  
 
 Output:
-    - Updated API documentation containing complete and accurate `curl` examples for testing the endpoints from the command line.
-
+    - Updated API documentation containing complete and accurate `curl` examples 
+    - Documentation that is easier for developers to test manually
 
 ### Risks & unknowns
 What could go wrong? What are you still unsure about?
@@ -40,6 +40,8 @@ What could go wrong? What are you still unsure about?
 
 ### Edge cases
 What inputs or states should your fix handle gracefully?
-- Endpoints that require no request body should have simplified `curl` examples.
-- Examples should clearly indicate required headers, such as `Content-Type` and `Authorization`, when applicable.
-- Placeholder values (IDs, tokens, usernames, etc.) should be obvious so users know what to replace before running the commands.
+
+- GET endpoints that do not require a request body.
+- POST endpoints that require JSON payloads.
+- Endpoints requiring Authorization headers.
+- Placeholder values (IDs, tokens, usernames) should be clearly identified so users know what to replace.
