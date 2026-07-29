@@ -1,6 +1,6 @@
 ## Solution plan
 
-**Issue:** [issue title and link]
+**Issue:**  https://github.com/ascherj/pathreview/issues/117 
 
 ### Understand
 What is the root cause of this issue? What behavior is expected vs. actual?
@@ -9,8 +9,8 @@ The current API documentation describes the available endpoints, but it does not
 
 ### Map
 Which files, functions, or modules are involved?
-List the specific files you expect to touch.
-API.md
+
+- docs/api.md' - API documentation
 
 
 ### Plan
@@ -25,8 +25,8 @@ What are the steps to fix this issue?
 ### Inputs & outputs
 What does your fix take as input? What should it produce or change?
 Input :
-    - Existing API documentation
-    - Endpoint definitions from the backend  
+    - Existing 'docs/api.md' documentation
+    - API Endpoint definitions from the backend  
 
 Output:
     - Updated API documentation containing complete and accurate `curl` examples 
