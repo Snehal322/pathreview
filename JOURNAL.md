@@ -31,3 +31,16 @@ https://github.com/Snehal322/pathreview/blob/fix/117-curl-eg-missing--API-testin
 
 **Blockers or open questions:**
 None
+
+## Week 9 - Solution building & PR submission
+
+Check-in 1 (mid-week)
+
+Current progress:
+Implemented the API documentation updates for Issue #117. The documentation now covers the available API endpoints, authentication requirements, request examples, successful responses, and error responses. I also ran the existing test suite and identified pre-existing failures unrelated to the API documentation work.
+
+Next steps:
+Run make check and make test-unit after the documentation changes, compare the results with the baseline, complete the self-review, and request peer feedback on the draft PR.
+
+Blockers:
+The existing unit-test suite contains pre-existing failures in unrelated application components. These are outside the scope of Issue #117.
