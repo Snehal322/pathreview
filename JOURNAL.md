@@ -44,3 +44,25 @@ Run make check and make test-unit after the documentation changes, compare the r
 
 Blockers:
 The existing unit-test suite contains pre-existing failures in unrelated application components. These are outside the scope of Issue #117.
+
+### Check-in 2 (end of week)
+
+**PR link:** 
+https://github.com/ascherj/pathreview/pull/991 
+
+**Branch:** [the branch name you worked on, e.g. `fix/123-short-description`]
+fix/117-curl-eg-missing--API-testing
+
+**What you built:**
+Updated the API documentation for Issue #117 to provide a complete reference for the PathReview API, including endpoint descriptions, authentication requirements, request examples, response examples, and documented error responses.
+
+**Tests added or updated:**
+[Which test files did you touch? What do they cover?]
+No unit tests were added because this issue is limited to API documentation and does not modify application logic. The existing test suite was run before and after the changes to verify that the documentation update did not introduce new failures.
+
+Pre-existing failures; no new failures introduced.
+
+**Self-review confirmation:** [Y] make check passes  [X] make test-unit passes
+
+**Draft PR feedback received from:** [name or Slack handle, or "none"]
+
